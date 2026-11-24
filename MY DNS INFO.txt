@@ -1,0 +1,17 @@
+MYDNS-AUTH:
+username:mydns
+password:admin123
+
+MYDNS-RESOLVER:
+username:mydns
+password:admin123
+
+windows(client-laptop-IP)=172.16.9.132
+MYDNS-AUTH(IP ADDRESS-data)=172.16.9.228
+MYDNS-RESOLVER(IP ADDRESS)=172.16.9.66
+
+host-only:
+client(laptop):192.168.56.1
+Resolver:192.168.56.103
+Server:192.168.56.102
+
